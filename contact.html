@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Amna Iqbal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>Contact Me</h1>
+    <p>Let's Connect & Build Something Amazing!</p>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="roadmap.html">Roadmap</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+
+<section>
+
+<h2>Internship Application Form</h2>
+
+<p>
+Fill out the form below to connect with me or submit your internship information.
+</p>
+
+<form>
+
+<!-- Personal Information -->
+
+<fieldset>
+
+<legend>👤 Personal Information</legend>
+
+<label for="fullname">Full Name</label>
+<input
+type="text"
+id="fullname"
+placeholder="Enter your full name"
+required
+minlength="3">
+
+<label for="email">Email Address</label>
+<input
+type="email"
+id="email"
+placeholder="example@gmail.com"
+required>
+
+<label for="phone">Phone Number</label>
+<input
+type="tel"
+id="phone"
+placeholder="03001234567"
+pattern="[0-9]{11}"
+required>
+
+<label>Gender</label>
+
+<div class="radio-group">
+
+<label>
+<input type="radio" name="gender" required>
+Female
+</label>
+
+<label>
+<input type="radio" name="gender">
+Male
+</label>
+
+</div>
+
+<label>Date of Birth</label>
+<input type="date" required>
+
+<label>City</label>
+
+<input
+list="cities"
+placeholder="Choose your city"
+required>
+
+<datalist id="cities">
+
+<option value="Gujranwala">
+<option value="Lahore">
+<option value="Islamabad">
+<option value="Karachi">
+<option value="Faisalabad">
+
+</datalist>
+
+</fieldset>
+
+<!-- Internship Details -->
+
+<fieldset>
+
+<legend>💼 Internship Details</legend>
+
+<label>Internship Track</label>
+
+<select required>
+
+<option value="">Select Track</option>
+
+<option>Frontend Development</option>
+
+<option>Backend Development</option>
+
+<option>Artificial Intelligence</option>
+
+<option>UI/UX Design</option>
+
+</select>
+
+<label>Skill Level</label>
+
+<select required>
+
+<option value="">Select Level</option>
+
+<option>Beginner</option>
+
+<option>Intermediate</option>
+
+<option>Advanced</option>
+
+</select>
+
+<label>Preferred Work Mode</label>
+
+<div class="radio-group">
+
+<label>
+<input type="radio" name="mode" required>
+Remote
+</label>
+
+<label>
+<input type="radio" name="mode">
+Hybrid
+</label>
+
+<label>
+<input type="radio" name="mode">
+On-site
+</label>
+
+</div>
+
+</fieldset>
+
+<!-- Portfolio -->
+
+<fieldset>
+
+<legend>🌐 Portfolio Links</legend>
+
+<label>Portfolio URL</label>
+
+<input
+type="url"
+placeholder="https://yourportfolio.com">
+
+<label>GitHub URL</label>
+
+<input
+type="url"
+placeholder="https://github.com/yourusername">
+
+<label>LinkedIn URL</label>
+
+<input
+type="url"
+placeholder="https://linkedin.com/in/yourusername">
+
+</fieldset>
+
+<!-- About Yourself -->
+
+<fieldset>
+
+<legend>📝 About Yourself</legend>
+
+<label>Short Bio</label>
+
+<textarea
+rows="4"
+placeholder="Write a short introduction..."
+required></textarea>
+
+<label>Why do you want to join this internship?</label>
+
+<textarea
+rows="5"
+placeholder="Write your answer..."
+required></textarea>
+
+<label>Upload Your CV</label>
+
+<input type="file">
+
+<label>Available From</label>
+
+<input type="date">
+
+<div style="margin-top:20px;">
+
+<label>
+
+<input type="checkbox" required>
+
+I agree to the Terms & Conditions.
+
+</label>
+
+</div>
+
+<br>
+
+<input type="submit" value="Submit Application">
+
+<input type="reset" value="Reset Form">
+
+</fieldset>
+
+</form>
+
+</section>
+
+</main>
+
+<footer>
+
+<p>© 2026 Amna Iqbal | Frontend Developer Intern | Zylo Technologies</p>
+
+</footer>
+
+</body>
+
+</html>
